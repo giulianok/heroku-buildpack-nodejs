@@ -35,7 +35,7 @@ install_yarn() {
 }
 
 install_nodejs() {
-  local version=${1:-6.x}
+  local version=${1:-7.x}
   local dir="$2"
 
   if needs_resolution "$version"; then
